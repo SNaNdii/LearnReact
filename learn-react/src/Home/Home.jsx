@@ -2,10 +2,7 @@ import { useEffect, useState } from "react"
 import CustomInp from "../component/CustomInp"
 
 function Home() {
-
     const [inputMovie , setInputMovie] = useState([]);
-    console.log("Input Movie 01", inputMovie);
-    
     useEffect(() =>{
         getMovieData();
     }, []);
