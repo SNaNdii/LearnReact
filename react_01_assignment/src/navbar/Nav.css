@@ -1,0 +1,19 @@
+.nav{
+    height: 50px;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+button{
+    border-radius: 10px;
+    border: 0px;
+    height: 70%;
+    width: 100px;
+}

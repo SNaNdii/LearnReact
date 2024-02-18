@@ -1,18 +1,23 @@
 import './App.css';
+import Nav from './navbar/Nav';
+import "./navbar/Nav.css"
 
 function App() {
   let os = ["Android", "BlackBerry", "iPhone", "Windows Phone"];
   let man = ["Samsung", "HTC", "Microsoft", "Apple"];
   return (
     <div className="App">
-      <h1>Mobile Operating System</h1>
+      <Nav/>
+      
       <div>
+        <h1 className='test'>Mobile Operating System</h1>
         <ul>{os.map( (el) => {
           return <GetOs o = {el}/>
         })}</ul>
       </div>
-      <h1>Mobile Manufacturers</h1>
+      
       <div>
+        <h1>Mobile Manufacturers</h1>
         <ul>{man.map( (el) => {
           return <GetMan m = {el}/>
         })}</ul>
