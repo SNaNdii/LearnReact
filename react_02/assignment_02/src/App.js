@@ -1,9 +1,11 @@
 import './App.css';
-
+import NavBar from './components/NavBar';
+import ToDo from './components/ToDo'
 function App() {
   return (
-    <div className="App">
-     
+    <div>
+      <NavBar/>
+      <ToDo/>
     </div>
   );
 }

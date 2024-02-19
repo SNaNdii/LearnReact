@@ -1,0 +1,8 @@
+.nav{
+    height: 50px;
+    background-color: rgb(67, 194, 245);
+    color: teal;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}

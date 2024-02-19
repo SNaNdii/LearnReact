@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 600px;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 26%;
+    margin-top: 20px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 13%;
+}
+button{
+    background-color: rgb(0, 90, 126);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
