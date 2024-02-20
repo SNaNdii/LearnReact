@@ -34,7 +34,7 @@ const TodoInput = () =>{
                         status : false,
                     };
                     fetch("http://localhost:8080/list", {
-                        mathod: "POST",
+                        method: "POST",
                         headers : {
                             "content-type" : "application/json",
                         },
@@ -47,7 +47,7 @@ const TodoInput = () =>{
             
             {console.log(toDo)}
             {toDo.map(({id, task}) => {
-                return <h1>Id is : {id} , Task is : {task} </h1>
+                return <h4>Id is : {id} , Task is : {task} </h4>
             })}
         </div>
     )
