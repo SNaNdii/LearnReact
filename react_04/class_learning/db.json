@@ -1,0 +1,29 @@
+{
+    "user" : [
+        {
+            "id" : 1,
+            "name" : "Nandita",
+            "place" : "Noida"
+        },
+        {
+            "id" : 2,
+            "name" : "Tarun",
+            "place" : "Faridabad"
+        },
+        {
+            "id" : 3,
+            "name" : "Ankita",
+            "place" : "Chandigarh"
+        },
+        {
+            "id" : 4,
+            "name" : "Shilpi",
+            "place" : "Haridwar"
+        },
+        {
+            "id" : 5,
+            "name" : "Monika",
+            "place" : "Parwanoo"
+        }
+    ]
+}
