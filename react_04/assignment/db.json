@@ -1,0 +1,24 @@
+{
+    "list" : [
+        {
+            "id" : 1,
+            "task" : "Learn React"
+        },
+        {
+            "id" : 2,
+            "task" : "Have Lunch"
+        },
+        {
+            "id" : 3,
+            "task" : "Learn DSA"
+        },
+        {
+            "id" : 4,
+            "task" : "Have Tea"
+        },
+        {
+            "id" : 5,
+            "task" : "Evening Walk"
+        }
+    ]
+}
