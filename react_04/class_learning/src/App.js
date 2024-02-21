@@ -3,18 +3,17 @@ import { useEffect , useState} from 'react';
 
 function App() {
   const [user, setUser] = useState([]);
-  const[loading, setLoading] = useState(false);
+  const[loading, setLoading] = useState(true);
 
   useEffect( () =>{
-    console.log("UseEffect for Users")
     GetUsers();
   }, []); // empty arrays means useEffect get call only once
 
-  async function GetUsers(){ //fetching data here
+  async function GetUsers(){
     try{
       const res = await fetch("http://localhost:8080/user");
       const data = await res.json();
-      setUser(data); // setting data in eseState
+      setUser(data); // setting data in useState
       setLoading(false);
     }catch(err){
       console.log(err);
