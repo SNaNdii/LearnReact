@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import HideShowList from "./components/HideShowList"
+// import {useState} from "react"
+
+/* 
+      ---------My logic is ---------
+ Whenever button clicked, it will change the status of color
+ According to the status of color, className will change
+ According to that className, css will apply
+ */
 
 function App() {
+  // const[color, setColor] = useState(true);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="App">
+        <HideShowList/>
+      </div>
+      {/* {color ? className = "black" : className = "white"}
+      
+      <button
+        onClick={()=>{
+          setColor(!color);
+        }}>
+        {color ? "Dark " : "Light "} Theme
+      </button> 
+      */}
     </div>
   );
 }
