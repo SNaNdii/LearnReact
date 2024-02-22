@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import Counter from "./Counter"
 
 function Todo(){
     const[toDo, setTask] = useState([]);
@@ -11,7 +12,7 @@ function Todo(){
         return function(){ // this is called CleanUp function
             console.log("toDo's is Unmounted") // this function will get called when function is removed from UI (example hide todo list) 
         }
-        
+
     }, [page]) // passing page in array because of pagination. whenever page will chage, it will inform useEffect and getData will fetch data again accordingly
     
     async function getData(){
@@ -70,6 +71,7 @@ function Todo(){
                 }}>Next Page
             </button>
 
+            <Counter/>
         </div>
     )
 }
