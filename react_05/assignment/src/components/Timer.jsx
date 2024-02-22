@@ -12,13 +12,13 @@ function Timer(){
 
             setStartSec( (sec) => {
 
-                if(sec == 4){
+                if(sec == 59){
                     setStartMin((min) => {
 
-                        if(min == 4){
+                        if(min == 59){
                             setStartHour((hour) => {
 
-                                if(hour == 4 && min == 4 && sec == 4){
+                                if(hour == 23 && min == 59 && sec == 59){
                                     setDay( (d) => {
 
                                         if(d == dayName.length){
@@ -42,7 +42,7 @@ function Timer(){
 
                 return sec+1;
             });
-            
+
         }, 100);
     }, [])
 
