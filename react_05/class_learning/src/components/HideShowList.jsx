@@ -1,13 +1,15 @@
 import Todo from "./Todo"
 import {useState} from "react"
 
+/* Functionality - Hide and show all the list of todos */
+
 function HideShowList(){
 
     const[show, setShow] = useState(true);
 
     return (
         <div>
-            {/* Functionality - Hide and show all the list of todos */}
+            
             <button 
                 onClick={() => {
                     setShow(!show);
