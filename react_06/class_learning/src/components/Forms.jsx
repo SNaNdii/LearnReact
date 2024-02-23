@@ -1,4 +1,5 @@
 import { useState } from "react"
+import UseRefs from "./USeRefs"
 
 // FORMS------------------------
 
@@ -19,7 +20,6 @@ function Forms(){
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log(data);
         fetch("http://localhost:8080/users", {
             method : "POST",
             headers : {
@@ -35,11 +35,10 @@ function Forms(){
                 <input  onChange={handleChange} placeholder="Enter Username Here" id="name" type="text"/>
                 <input  onChange={handleChange} placeholder="Enter mobile number Here" id="num" type="number"/>
                 <input type="submit" value="submit"/>
-                {/* <h2>{data}</h2> */}
             </form>
+            <UseRefs/>
         </div>
     )
 }
-
 
 export default Forms
