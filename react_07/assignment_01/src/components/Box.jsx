@@ -7,7 +7,7 @@ const Box = styled.div`
     border-radius: 15px;
     margin: 5%;
     padding: 2%;
-    background-color: #bbe4e9;
+    background-image: url('https://images.pexels.com/photos/4218701/pexels-photo-4218701.jpeg?auto=compress&cs=tinysrgb&w=600');
 `;
 
 export default Box

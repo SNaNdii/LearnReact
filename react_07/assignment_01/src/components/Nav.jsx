@@ -1,22 +1,39 @@
 import { Flex, Spacer } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 import { Button } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 import "./css/nav.css"
+import SideBar from './SideBar'
+import {React} from 'react'
+import { TotalSubmissions } from './TotalSubmissions'
+// import { ThemeContext } from 'styled-components'
 
 function NavBar(){
+
+  // const {handleChange} = createContext(ThemeContext)
     return (
         <Flex className='cont'>
-            <Text fontSize='xl' as='b'>Home</Text>
+
+            <SideBar/>
             <Spacer/>
-            <Text fontSize='xl' as='b'>Login</Text>
+
+            <Link to="/"><Text fontSize='xl' as='b'>Home</Text></Link>
             <Spacer/>
-            <Text fontSize='xl' as='b'>SignUp</Text>
+
+            <Link to="/enroll"><Text fontSize='xl' as='b'>Enroll</Text></Link>
             <Spacer/>
-            <Button colorScheme='blue'>No of Submissions</Button>
+
+            <Link to="/details"><Text fontSize='xl' as='b'>Get Your Details</Text></Link>
             <Spacer/>
-            <Button colorScheme='blue'>Theme Change</Button>
+
+            {/* {BasicUsage()} */}
+            <TotalSubmissions/>
             <Spacer/>
-            <Text fontSize='xl' as='b'>Contact Us</Text>
+
+            <Button colorScheme='teal'>Theme Change</Button>
+            <Spacer/>
+
+            <Link><Text fontSize='xl' as='b'>Contact Us</Text></Link>
         </Flex>
     )
  }

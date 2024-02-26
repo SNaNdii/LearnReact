@@ -1,0 +1,76 @@
+{
+  "student": [
+    {
+      "name": "bchjsbjz",
+      "email": "bbchjsbdchjs",
+      "num": "7835673",
+      "age": "34",
+      "grad": "bchzjs",
+      "id": 1
+    },
+    {
+      "name": "nvjcnvjnj",
+      "email": "njkkfnvfjkd",
+      "num": "5878",
+      "age": "44",
+      "grad": "hhuhjd",
+      "id": 2
+    },
+    {
+      "name": "nandita singh",
+      "email": "nandita@gmail.com",
+      "num": "8074678343",
+      "age": "22",
+      "grad": "diploma",
+      "id": 3
+    },
+    {
+      "name": "shiva singh",
+      "email": "shiva@gmail.com",
+      "num": "7967678343",
+      "age": "27",
+      "grad": "B.E",
+      "id": 4
+    },
+    {
+      "name": "ndsjdfhn bdshj",
+      "email": "ncdhbc@gmail.com",
+      "num": "94784678343",
+      "age": "27",
+      "grad": "mba",
+      "id": 5
+    },
+    {
+      "name": "ndsjdfhn bdshj",
+      "email": "ncdhbc@gmail.com",
+      "num": "94784678343",
+      "age": "27",
+      "grad": "mba",
+      "id": 6
+    },
+    {
+      "name": "ooooo",
+      "email": "oooooooooo",
+      "num": "6666666",
+      "age": "43",
+      "grad": "bchsjbj",
+      "id": 7
+    },
+    {
+      "name": "Ankita",
+      "email": "anki@gmail.com",
+      "num": "787778348",
+      "age": "29",
+      "grad": "Graduate",
+      "id": 8
+    },
+    {
+      "name": "shilpi",
+      "email": "shilpi@gmail.com",
+      "num": "9854467377",
+      "age": "29",
+      "grad": "Graduate",
+      "id": 9
+    }
+  ]
+}
