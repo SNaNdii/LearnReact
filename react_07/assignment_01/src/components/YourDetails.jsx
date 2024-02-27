@@ -1,15 +1,11 @@
-import { Button , Container, Input , Text } from "@chakra-ui/react";
-import './css/details.css'
-import {useState , useEffect} from 'react'
+import { Button, Container, Input, Text } from "@chakra-ui/react";
+import { useState } from 'react';
+import './css/details.css';
 
 function YourDetails(){
 
     const[user, setUser] = useState([]);
     const[id, setId] = useState(0);
-
-    useEffect( () => {
-        getData();
-    }, [])
 
     const getData = async () => {
         try{

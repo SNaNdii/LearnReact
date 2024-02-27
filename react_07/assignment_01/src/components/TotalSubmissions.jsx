@@ -6,7 +6,7 @@ import {React} from 'react'
 
 export const TotalSubmissions = () => {
     const{ isOpen, onOpen, onClose } = useDisclosure()
-    const[total, setTotal] = useState();
+    const[total, setTotal] = useState(0);
 
     const handleClick = () => {
         onOpen();
