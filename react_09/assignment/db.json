@@ -1,0 +1,59 @@
+{
+    "list": [
+      {
+        "id": 1,
+        "task": "Learn React"
+      },
+      {
+        "id": 2,
+        "task": "Have Lunch"
+      },
+      {
+        "id": 3,
+        "task": "Learn DSA"
+      },
+      {
+        "id": 4,
+        "task": "Have Tea"
+      },
+      {
+        "id": 5,
+        "task": "Evening Walk"
+      },
+      {
+        "task": "Have Dinner",
+        "status": false,
+        "id": 6
+      },
+      {
+        "task": "dsa practice",
+        "status": false,
+        "id": 7
+      },
+      {
+        "task": "Evening walk after dinner",
+        "status": false,
+        "id": 8
+      },
+      {
+        "task": "Talk to friends",
+        "status": false,
+        "id": 9
+      },
+      {
+        "task": "Work on project",
+        "status": false,
+        "id": 10
+      },
+      {
+        "task": "Do brush",
+        "status": false,
+        "id": 11
+      },
+      {
+        "task": "Go to sleep",
+        "status": false,
+        "id": 12
+      }
+    ]
+  }
