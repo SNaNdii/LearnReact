@@ -43,7 +43,7 @@ Pure functions :-
     => always return a new update state
     => PURE
 */
-const reducer = () => {
+const reducer = (store , action) => {
     if(action.type === "ADD_COUNT"){
         return {...store , counter: store.counter + action.payload};
     }
