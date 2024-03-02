@@ -1,15 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import { Home } from './components/Home'
-import NavBar from "./components/Nav"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div>
-      <NavBar/>
-      <Home/>
+      <h1>Welcome to Redux Without React</h1>
     </div>
   )
 }
