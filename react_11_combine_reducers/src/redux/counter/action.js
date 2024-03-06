@@ -1,8 +1,7 @@
-export const ADD_COUNTER = "ADD_COUNTER";
-
+export const ADD_COUNT = "ADD_COUNT"
 export const addCount = (data) => {
     return {
-        type : ADD_COUNTER,
+        type : ADD_COUNT,
         payload : data
     }
 }
