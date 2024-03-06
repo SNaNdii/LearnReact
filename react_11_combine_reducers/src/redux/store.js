@@ -9,3 +9,4 @@ const rootReducer = combineReducers({
 
 export const store = createStore(rootReducer , window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 // {counter : 0}
+console.log("store : " , store.getState());

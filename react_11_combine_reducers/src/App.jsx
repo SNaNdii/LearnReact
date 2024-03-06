@@ -1,11 +1,13 @@
 import './App.css'
 import { Counter } from './components/Counter'
+import { Todo } from './components/Todo'
 
 function App() {
 
   return (
     <div>
       <Counter/>
+      <Todo/>
     </div>
   )
 }
